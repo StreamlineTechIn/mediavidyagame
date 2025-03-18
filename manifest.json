@@ -1,7 +1,7 @@
 {
-    "name": "jeopardylabs_game",
-    "short_name": "jeopardylabs_game",
-    "start_url": ".",
+    "name": "mediavidyagame",
+    "short_name": "mediavidyagame",
+    "start_url": "/mediavidyagame/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
@@ -10,26 +10,26 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "icons/Icon-192.png",
+            "src": "/mediavidyagame/icons/Icon-192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "icons/Icon-512.png",
+            "src": "/mediavidyagame/icons/Icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "icons/Icon-maskable-192.png",
+            "src": "/mediavidyagame/icons/Icon-maskable-192.png",
             "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
+            "purpose": "maskable",
+            "type": "image/png"
         },
         {
-            "src": "icons/Icon-maskable-512.png",
+            "src": "/mediavidyagame/icons/Icon-maskable-512.png",
             "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
+            "purpose": "maskable",
+            "type": "image/png"
         }
     ]
 }
