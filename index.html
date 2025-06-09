@@ -5,7 +5,8 @@
     window.flutterWebRenderer = "html";
   </script>
 
-  <base href="https://jeopardy.beinglawful.in//">
+  <!-- IMPORTANT: Set correct base path for subdomain -->
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -15,19 +16,19 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="jeopardylabs_game">
-  <link rel="manifest" href="./manifest.json">
+  <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>jeopardylabs_game</title>
+
+  <!-- Firebase SDK -->
   <script type="module">
-    // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
 
-    // Your web app's Firebase configuration
-     const firebaseConfig = {
+    const firebaseConfig = {
       apiKey: "AIzaSyBbRvQLmHc84ZgySy4_EGNd-pF5BJD9Gao",
       authDomain: "jeopardylabsgame.firebaseapp.com",
       projectId: "jeopardylabsgame",
@@ -37,13 +38,13 @@
       measurementId: "G-8T9NGP0SZC"
     };
 
-    // Initialize Firebase
     const app = initializeApp(firebaseConfig);
   </script>
 
 </head>
 <body>
-  <script src="./flutter_bootstrap.js" async></script>
+  <!-- Main app script -->
+  <script src="flutter_bootstrap.js" async></script>
 
   <script>
     function onEntrypointLoaded(engineInitializer) {
